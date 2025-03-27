@@ -19,7 +19,7 @@ const Footer = () => {
 						<li className="social__item"><a href="#!"><img src={linked} alt="Link" /></a></li>
 					</ul>
 					<div className="copyright">
-						<p>© 2025 frontend-dev.com</p>
+						<p>© 2025 Jakob Herlein. All rights reserved.</p>
 					</div>
 				</div>
 			</div>
