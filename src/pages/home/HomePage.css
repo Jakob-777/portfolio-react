@@ -1,0 +1,47 @@
+
+.content-list__skills {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.content-item__skills {
+	width: 350px;
+	background-color: var(--project-card-bg);
+	box-shadow: var(--box-shadow);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.skill-title {
+	margin-top: 25px;
+}
+
+.skills {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+	gap: 10px;
+	margin: 0 30px;
+	margin-bottom: 25px;
+}
+
+.skill__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	padding: 5px;
+}
+
+.skill__item:hover {
+	color: var(--accent);
+	cursor: pointer;
+}
+
+.skill__text {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
